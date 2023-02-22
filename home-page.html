@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home-page.css">
+    <script src="js/card-animation.js"></script>
+    <title>Marvel | Multiverso</title>
+</head>
+
+<body>
+    <nav class="s-menu">
+        <ul>
+            <li class="s-menu__item">
+                <a href="#">Pagina inicial</a>
+            </li>
+            <li class="s-menu__item">
+                <a href="pages/heroi-01/captain-america-01.html">Capitão America</a>
+            </li>
+            <li class="s-menu__item s-menu__icon">
+                <img src="img/logo-Marvel.png" alt="">
+            </li>
+            <li class="s-menu__item">
+                <a href="pages/heroi-02/homem-de-ferro-01.html">Homem-de-ferro</a>
+            </li>
+            <li class="s-menu__item">
+                <a href="pages/heroi-03/viuva-negra.html">Viúva negra</a>
+            </li>
+        </ul>
+    </nav> 
+    <div class="s-container">
+        <div class="s-cards-carousel" style="transform: translateZ(-60vw) rotateY(0deg); ">
+            <a href="pages/heroi-01/captain-america-01.html" class="s-card" id="heroi-01">
+                <img class="s-card__bacground" src="img/capitao-america2-figma.png" alt="">
+                <img class="s-card__image" src="img/crhis evans-figma.png" alt="">
+                <h2 class="s-card__title">Capitão America</h2>
+
+            </a>
+            <a href="pages/heroi-02/homem-de-ferro-01.html" class="s-card" id="heroi-02">
+                <img class="s-card__bacground" src="img/home-de-ferro2-figma.png" alt="">
+                <img class="s-card__image" src="img/robert-downey-figma.png" alt="">
+                <h2 class="s-card__title">Homem-de-ferro</h2>
+
+            </a>
+            <a href="pages/heroi-03/viuva-negra.html" class="s-card" id="heroi-03">
+                <img class="s-card__bacground" src="img/transparent-black-wido.png" alt="">
+                <img class="s-card__image" src="img/scarlett-johansson-figma.png" alt="">
+                <h2 class="s-card__title">Viúva-negra</h2>
+            </a>
+        </div>
+    </div>
+    <div class="s-controller"> 
+
+        <div id="01" onclick="selectedCarouselItem(this)" class="s-controller__button s-controller__button--active">
+            01
+        </div>
+        <div id="02" onclick="selectedCarouselItem(this)" class="s-controller__button ">
+            02
+        </div>
+        <div id="03" onclick="selectedCarouselItem(this)" class="s-controller__button ">
+            03
+        </div>
+
+        <div class="s-controller__line"></div>
+
+    </div>
+</body>
+
+</html>

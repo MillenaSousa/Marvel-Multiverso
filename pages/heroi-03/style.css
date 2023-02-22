@@ -1,0 +1,6 @@
+@import url(../../css/internal.css);
+
+.bacground-viuva-01 {
+    background-image: url(img/Viuva-Negra.jpg);
+    background-size: cover;
+}

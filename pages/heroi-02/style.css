@@ -1,0 +1,15 @@
+@import url(../../css/internal.css);
+
+.bacground-iron-man-01 {
+    background-image: url(img/Homem-de-Ferro-2008-a.jpg);
+    background-size: cover;
+}
+
+.bacground-iron-man-02 {
+    background-image: url(img/Homem-de-Ferro-2010-a.jpg);
+    background-size: cover;
+}
+.bacground-iron-man-03 {
+    background-image: url(img/Homem-de-ferro-2013-a.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+@import url(../../css/internal.css);
+
+.bacground-captain-01 {
+    background-image: url(img/background-captain-01.jpg);
+    background-size: cover;
+}
+
+.bacground-captain-02 {
+    background-image: url(img/background-captain-02.jpg);
+    background-size: cover;
+}
+
+.bacground-captain-03 {
+    background-image: url(img/background-captain-03.jpg);
+    background-size: cover;
+}
